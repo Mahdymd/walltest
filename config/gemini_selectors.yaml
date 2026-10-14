@@ -1,0 +1,23 @@
+# Gemini page selectors (phase 2).
+# status: needs_verification  -> image generation is refused.
+# Fill each css with a real selector from YOUR Gemini page, run:
+#   python -m app.main --inspect
+# and only when every required element shows a match, change the status to: verified
+status: verified
+note: "فاز ۲: این سلکتورها باید روی صفحه‌ی واقعی شما بررسی شوند."
+elements:
+  prompt_box:
+    css: 'div[aria-label="Enter a prompt for Gemini"]'
+    note: "کادر ورود متن پرامپت"
+  send_button:
+    css: 'button:has(mat-icon[fonticon="arrow_upward"])'
+    note: "دکمه‌ی ارسال"
+  image_result:
+    css: "img"
+    note: "تصویر تولیدشده در پاسخ آخر"
+  busy_indicator:
+    css: ""
+    note: "نشانگر در حال تولید (اختیاری)"
+  response_text:
+    css: ".model-response-text"
+    note: "متن آخرین پاسخ Gemini (برای نوشتن پست از تلگرام)"

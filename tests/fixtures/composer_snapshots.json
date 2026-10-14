@@ -1,0 +1,97 @@
+[
+  {
+    "html": "<b>سلام</b>\n\nمتن ساده\n\n#تست\n\n@waltest0001",
+    "plain": "سلام\n\nمتن ساده\n\n#تست\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "<b>A &lt; B &amp; C</b>\n\nمتن &lt;b&gt;خطرناک&lt;/b&gt;\n\n#a #b\n\n@waltest0001",
+    "plain": "A < B & C\n\nمتن <b>خطرناک</b>\n\n#a #b\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "<b>با منبع</b>\n\nعدد ۱۲\n\n🔗 منبع: <a href=\"https://en.wikipedia.org/wiki/Telegram_(software)\">en.wikipedia.org</a>\n\n#x\n\n@waltest0001",
+    "plain": "با منبع\n\nعدد ۱۲\n\n🔗 منبع: en.wikipedia.org\n\n#x\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "کل متن\n\nبا <b>بولد</b> و <a href=\"https://example.com/a?b=1&amp;c=2\">لینک</a>\n\n@waltest0001",
+    "plain": "کل متن\n\nبا بولد و لینک\n\n@waltest0001",
+    "mode": "fulltext",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "کامل\n\n@waltest0001",
+    "plain": "کامل\n\n@waltest0001",
+    "mode": "fulltext",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": [
+      "در حالت FullText، ستون‌های Hashtags و CTA به کپشن اضافه نمی‌شوند"
+    ]
+  },
+  {
+    "html": "<b>CTA</b>\n\nبدنه\n\n#ارز #بازار\n\nبرای ادامه دنبال کنید\n\n@waltest0001",
+    "plain": "CTA\n\nبدنه\n\n#ارز #بازار\n\nبرای ادامه دنبال کنید\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "<b>هندل</b>\n\nبدنه\n\n#تست\n\n@waltest0001",
+    "plain": "هندل\n\nبدنه\n\n#تست\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "<b>فاصله تکراری</b>\n\nخط\n\nخط دوم با فاصله\n\n#a\n\n@waltest0001",
+    "plain": "فاصله تکراری\n\nخط\n\nخط دوم با فاصله\n\n#a\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "فاصله‌ی تکراری حذف شد",
+      "فاصله‌ی تکراری حذف شد",
+      "خط خالی اضافه حذف شد",
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "<b>ی و ک</b>\n\nکتاب ی\n\n#تست\n\n@waltest0001",
+    "plain": "ی و ک\n\nکتاب ی\n\n#تست\n\n@waltest0001",
+    "mode": "template",
+    "changes": [
+      "ي/ك عربی به ی/ک فارسی تبدیل شد",
+      "ي/ك عربی به ی/ک فارسی تبدیل شد",
+      "هندل @waltest0001 به انتهای کپشن اضافه شد"
+    ],
+    "notes": []
+  },
+  {
+    "html": "",
+    "plain": "",
+    "mode": "template",
+    "changes": [],
+    "notes": []
+  }
+]

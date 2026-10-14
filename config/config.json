@@ -1,0 +1,114 @@
+{
+  "version": "2.0.0-phase2",
+  "channel": {
+    "handle": "@waltest0001",
+    "display_name": "وال"
+  },
+  "sheet": {
+    "backend": "local",
+    "tab_content": "Content",
+    "tab_banned": "BannedWords",
+    "tab_sources": "Sources",
+    "poll_seconds": 90,
+    "max_pending_drafts": 5
+  },
+  "topics": {
+    "enabled": true,
+    "interval_minutes": 60,
+    "first_run_minutes": 2
+  },
+  "caption": {
+    "max_chars_image": 1000,
+    "max_chars_text": 4096,
+    "title_fallback_chars": 120,
+    "title_format": "<b>{title}</b>",
+    "source_label_format": "🔗 منبع: <a href=\"{url}\">{label}</a>"
+  },
+  "policy": {
+    "hashtags_min": 1,
+    "hashtags_max": 6,
+    "max_emojis": 8,
+    "max_repeated_marks": 2,
+    "max_line_chars": 400,
+    "latin_only_review": true,
+    "flag_emojis_review": false,
+    "duplicate_threshold": 0.85,
+    "duplicate_days": 30,
+    "shorteners": [
+      "bit.ly",
+      "tinyurl.com",
+      "t.co",
+      "goo.gl",
+      "ow.ly",
+      "is.gd",
+      "cutt.ly",
+      "s.id"
+    ]
+  },
+  "sources": {
+    "timeout_seconds": 15,
+    "cache_hours": 24,
+    "min_text_chars": 500,
+    "allowed_domains_fallback": [
+      "en.wikipedia.org",
+      "commons.wikimedia.org"
+    ]
+  },
+  "images": {
+    "width": 1280,
+    "height": 720,
+    "min_side": 512,
+    "jpeg_quality": 90,
+    "max_bytes": 1000000,
+    "duplicate_hamming": 5,
+    "recent_compare": 50,
+    "logo": {
+      "width_ratio": 0.14,
+      "opacity": 0.85,
+      "margin": 28,
+      "auto_contrast": true,
+      "contrast_min": 60
+    }
+  },
+  "image_prompt": {
+    "template": "Create one {style_fragment} 16:9 image for a professional Persian tech & marketing Telegram channel. Topic: «{title}». Absolutely no text, letters, numbers, logos or watermarks inside the image. Clean composition, generous empty space in the bottom-right corner. Brand colors: {brand_colors}.",
+    "style_fragments": {
+      "photo": "photorealistic, modern, softly lit",
+      "3d": "clean 3D render, glossy materials, studio lighting",
+      "illustration": "flat vector illustration, modern",
+      "minimal": "minimalist, abstract, lots of negative space",
+      "infographic-bg": "abstract tech background suitable for overlaying text later"
+    },
+    "brand_colors": "deep navy and turquoise accents",
+    "max_title_chars": 200
+  },
+  "admin": {
+    "max_upload_mb": 15,
+    "publish_delete_window_hours": 48,
+    "alert_cooldown_minutes": 15,
+    "conversation_timeout_seconds": 300
+  },
+  "gemini": {
+    "enabled_in_phase": 2,
+    "max_images_per_day": 15,
+    "timeout_seconds": 180,
+    "restart_every_images": 20,
+    "delete_chat_after": false,
+    "model_mode": "default",
+    "max_text_per_day": 30
+  },
+  "retention": {
+    "raw_images_days": 30,
+    "artifacts_days": 7,
+    "backups_days": 14
+  },
+  "logging": {
+    "max_mb": 5,
+    "backups": 5
+  },
+  "commons": {
+    "enabled": true,
+    "api": "https://commons.wikimedia.org/w/api.php",
+    "max_results": 12
+  }
+}
